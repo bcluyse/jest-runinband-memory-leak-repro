@@ -1,0 +1,14 @@
+{
+  "name": "jest-24-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --logHeapUsage ../tests"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "24.9.0"
+  }
+}

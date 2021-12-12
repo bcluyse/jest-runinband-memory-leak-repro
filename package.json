@@ -10,7 +10,8 @@
     "build": "npm install && cd 24/ && npm install && cd ../25/ && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test24": "node --inspect ./24/node_modules/.bin/jest --runInBand --logHeapUsage .",
-    "test25": "node --inspect ./25/node_modules/.bin/jest --runInBand --logHeapUsage ."
+    "test25": "node --inspect ./25/node_modules/.bin/jest --runInBand --logHeapUsage .",
+    "test27": "node --inspect ./27/node_modules/.bin/jest --runInBand --logHeapUsage ."
   },
   "author": "",
   "license": "ISC",
